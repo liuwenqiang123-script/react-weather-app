@@ -1,0 +1,52 @@
+.SearchBar {
+    width: 240px;
+    height: 50px;
+    background-color: #E8E8E8;
+    border-style: none;
+    border-radius: 20px;
+    padding: 0 30px;
+    font-size: 22px;
+    outline: none;
+}
+
+.LocationsList {
+    padding-left: 0;
+}
+
+.LocationItem {
+    list-style: none;
+    padding: 4px 0 4px 34px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.LocationItem:hover {
+    background-color: white;
+    color: #0076FF;
+    font-weight: bold;
+}
+
+.HasBorder {
+    border: 2px solid #0076FF;
+    border-radius: 20px;
+}
+
+.NoBorder {
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.GrayBackground {
+    background-color: #E8E8E8;
+}
+
+.NoBackground {
+    background-color: transparent;
+}
+
+.SeparateLine {
+    background-color: white;
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

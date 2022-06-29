@@ -1,0 +1,83 @@
+.WeatherItem {
+    width: 300px;
+    height: 210px;
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(70, 70, 70);
+    white-space: pre-wrap;
+}
+
+.backLight {
+    background-image: linear-gradient(225deg, #fee5ca, #e9f0ff 55%, #dce3fb);
+}
+
+.backGray {
+    background-image: linear-gradient(225deg, #D0DAE8, #CCD4DF 55%, #A5B3C5);
+}
+
+.noMarginRight {
+    margin-right: 0;
+}
+
+.hasMarginRight {
+    margin-right: 94px;
+}
+
+.WeatherItem .Name {
+    margin-top: 12px;
+    font-size: 22px;
+    font-weight: 450;
+}
+
+.WeatherItem .Detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.WeatherItem .Detail .Icon {
+    width: 90px;
+    height: auto;
+    margin-right: 6px;
+}
+
+.WeatherItem .Detail .Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.WeatherItem .Detail .Temp {
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.WeatherItem .Detail .Summary {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.WeatherItem .Text {
+    width: 250px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.WeatherItem button {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    color: rgb(61, 113, 234);
+    font-weight: bolder;
+    cursor: pointer;
+}

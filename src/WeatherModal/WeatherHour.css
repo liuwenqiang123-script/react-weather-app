@@ -1,0 +1,27 @@
+.WeatherHour {
+    width: 43px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.WeatherHour .TemperatureLine {
+    width: 6px;
+    height: 30px;
+    background-color: rgb(61, 113, 234);
+    border-radius: 3px;
+    margin: 3px 0;
+}
+
+.WeatherHour .WeatherIcon {
+    width: 28px;
+    height: auto;
+}
+
+.WeatherHour .Number {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(126, 126, 126);
+}

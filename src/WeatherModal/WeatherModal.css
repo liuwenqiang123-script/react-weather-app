@@ -1,0 +1,68 @@
+.WeatherModalContainer {
+    position: fixed;
+    padding: 0 20px;
+    width: 800px;
+    height: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 1;
+}
+
+.ModalSeparateLine {
+    height: 1px;
+    background-color: #D3D3D3;
+}
+
+.WeatherDetailContainer {
+    margin: 20px 0 0 0;
+    height: 335px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.LoadingContainer {
+    margin: 20px 0 0 0;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalButtonContainer {
+    height: 45px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.HoursAndDaily {
+    width: 540px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.WeatherModalContainer .ModalButtonContainer Button {
+    border: none;
+    background-color: transparent;
+    color: rgb(133, 144, 166);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.WeatherModalContainer .ModalButtonContainer Button i {
+    margin-right: 2px;
+}
+
+.WeatherModalContainer .ModalButtonContainer Button:hover {
+    color: rgb(61, 113, 234);
+}

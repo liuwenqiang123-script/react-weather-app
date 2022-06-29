@@ -1,0 +1,38 @@
+.WeatherCard {
+    width: 240px;
+    height: 320px;
+    position: relative;
+}
+
+.WeatherCard video {
+    width: 240px;
+    height: 320px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.WeatherCard .Text {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    margin: auto;
+    color: rgb(80, 80, 80);
+}
+
+.WeatherCard .Text .Left {
+    font-size: 55px;
+}
+
+.WeatherCard .Text .Right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 520;
+}

@@ -1,0 +1,10 @@
+.WeatherDaily {
+    width: 516px;
+    height: 140px;
+    padding: 5px 12px;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

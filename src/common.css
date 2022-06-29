@@ -1,0 +1,12 @@
+.Visible {
+    visibility: visible;
+}
+
+.NotVisible {
+    visibility: hidden;
+}
+
+.zIndex1 {
+    position: relative;
+    z-index: 1;
+}
